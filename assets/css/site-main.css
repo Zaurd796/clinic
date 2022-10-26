@@ -1,0 +1,27 @@
+.site-main__first {
+  min-height: 455px;
+
+  background-color: var(--color-frenchPass);
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+@media(max-width: 670px) {
+  .site-main__first {
+    background-position: 0px;
+  }
+}
+
+.site-main__map {
+  height: 450px;
+
+  background-image: url("/clinic/assets/images/map.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: var(--color-tundora);
+}
+
+.site-main__map iframe {
+  width: 100%;
+}

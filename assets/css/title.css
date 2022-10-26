@@ -1,0 +1,21 @@
+.title {
+  margin: 0;
+
+  font-family: var(--font-roboto);
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 52px;
+  text-transform: uppercase;
+  color: var(--color-tundora);
+}
+
+@media(max-width: 530px) {
+  .title {
+    font-size: 35px;
+    line-height: 45px;
+  }
+}
+
+.title span {
+  color: var(--color-fadedJade);
+}

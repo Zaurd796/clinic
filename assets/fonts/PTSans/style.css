@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "PT Sans";
+  font-display: swap;
+  src: url("PTSansRegular.woff2") format("woff2"),
+    url("PTSansRegular.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+}

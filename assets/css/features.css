@@ -1,0 +1,124 @@
+.features {
+  position: relative;
+
+  padding: 3.6% 0 6.5%;
+
+  border-bottom: 1px solid rgba(71, 128, 120, 0.5);
+}
+
+.features__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+@media(max-width: 770px) {
+  .features__top {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+.features__title {
+  margin-left: 30px;
+}
+
+@media(max-width: 928px) {
+  .features__title {
+    margin-left: 0;
+  }
+}
+
+@media(max-width: 770px) {
+  .features__title {
+    margin-bottom: 15px;
+  }
+}
+
+.features__content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 35px;
+}
+
+@media(max-width: 928px) {
+  .features__content {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.features__content-item {
+  max-width: 432px;
+  padding: 10px 17px 30px 15px;
+
+  border: 20px solid rgba(56, 128, 118, 0.5);
+}
+
+.features__content-item:last-child {
+  margin-right: 20px;
+}
+
+@media(max-width: 1400px) {
+  .features__content-item:last-child {
+    margin-right: 0;
+  }
+}
+
+.features__content-item h3 {
+  margin-top: 0;
+  margin-bottom: 20px;
+
+  font-family: var(--font-roboto);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-transform: uppercase;
+  color: var(--color-tundora);
+}
+
+.features__content p {
+  margin: 0;
+}
+
+.features__button {
+  position: absolute;
+  bottom: 176px;
+  right: 0;
+}
+
+@media(max-width: 1400px) {
+  .features__button {
+    position: static;
+  }
+}
+
+@media(max-width: 770px) {
+  .features__button {
+    align-self: flex-end;
+  }
+}
+
+.features__button a {
+  display: flex;
+  align-items: center;
+
+  font-family: var(--font-roboto);
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--color-tundora);
+}
+
+.features__button a::after {
+  display: block;
+  width: 66px;
+  height: 16px;
+  margin-left: 28px;
+
+  background-image: url("/clinic/assets/images/icons/arrow-black.svg");
+  content: "";
+}
